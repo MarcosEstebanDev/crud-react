@@ -24,7 +24,7 @@ function renderMain(){
   return (
     <div>
 
-    <h1 className='text-5xl text-white font-bolt text-center'>Task</h1>
+    <h1 className='text-5xl text-white font-bolt text-center'>Tarea</h1>
    <div className='grid grid-cols-3 gap-2'>
     {
       renderMain()
