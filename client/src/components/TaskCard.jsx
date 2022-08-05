@@ -22,9 +22,9 @@ function TaskCard({task}){
         <p className='text-xm'>{task.description}</p>
         <span>{task.createAt}</span>
         <div className='flex gap-x-1 '>
-        <button className='bg-red-500 px-2 py-1 text-white' onClick={()=> deleteTask(task.id)}>Delete</button>
-        <button className='bg-slate-500 px-4 py-1 text-white' onClick={() => navigate(`/edit/${task.id}`)}>Edit</button>
-        <button className='bg-green-500 px-4 py-1 text-white' onClick={()=> handleDone(task.done)}>Toggle Task</button>
+        <button className='bg-red-500 px-2 py-1 text-white' onClick={()=> deleteTask(task.id)}>Eliminar</button>
+        <button className='bg-slate-500 px-4 py-1 text-white' onClick={() => navigate(`/edit/${task.id}`)}>Editar</button>
+        <button className='bg-green-500 px-4 py-1 text-white' onClick={()=> handleDone(task.done)}>Verificar</button>
         </div>
         </div>
     </div>
