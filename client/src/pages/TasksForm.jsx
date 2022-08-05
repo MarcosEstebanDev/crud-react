@@ -63,7 +63,7 @@ loadTask()
     <input className='px-2 py-1 rounded-sm w-full' type="text" name="title" placeholder='Write a title' onChange={handleChange} value={values.title}></input>
     <label className='block'>Descripcion</label>
     <textarea className='px-2 py-1 rounded-sm w-full' name="description" rows="3" placeholder='Write a description' onChange={handleChange} value={values.description}></textarea>
-    <button className='bg-green-500 text-white w-full rounded-md block max-w-sm rounded-md p-3' type='submit' disabled={isSubmitting}>{isSubmitting ? "Saving...":"Save"}</button>
+    <button className='bg-green-500 text-white w-full rounded-md block max-w-sm rounded-md p-3' type='submit' disabled={isSubmitting}>{isSubmitting ? "Guardando...":"Guardado"}</button>
     </Form>
     )}
     </Formik>
