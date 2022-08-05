@@ -15,7 +15,7 @@ const {tasks, loadTask} = useTasks();
 
 function renderMain(){
 
-  if(tasks.length === 0 ) return <h1>No Tasks Yet</h1>;
+  if(tasks.length === 0 ) return <h1>No Hay Tareas</h1>;
   return tasks.map((task) =>
     <TaskCard task={task} key={task.id}/>
    )
