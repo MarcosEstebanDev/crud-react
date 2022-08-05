@@ -60,9 +60,9 @@ loadTask()
         
         <h1 className='text-xl font-bold uppercase text-center'>{params.id ? "Editar Tarea" : "Nueva Tarea"}</h1>
     <label className='block'>Titulo</label>
-    <input className='px-2 py-1 rounded-sm w-full' type="text" name="title" placeholder='Write a title' onChange={handleChange} value={values.title}></input>
+    <input className='px-2 py-1 rounded-sm w-full' type="text" name="title" placeholder='Titulo' onChange={handleChange} value={values.title}></input>
     <label className='block'>Descripcion</label>
-    <textarea className='px-2 py-1 rounded-sm w-full' name="description" rows="3" placeholder='Write a description' onChange={handleChange} value={values.description}></textarea>
+    <textarea className='px-2 py-1 rounded-sm w-full' name="description" rows="3" placeholder='Descripción' onChange={handleChange} value={values.description}></textarea>
     <button className='bg-green-500 text-white w-full rounded-md block max-w-sm rounded-md p-3' type='submit' disabled={isSubmitting}>{isSubmitting ? "Guardando...":"Guardado"}</button>
     </Form>
     )}
